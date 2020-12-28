@@ -1,0 +1,274 @@
+*{
+    font-family: "Roboto";
+}
+*{
+    box-sizing: border-box;
+}
+html,body{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    height: 510px;
+    width: 100%;
+    background-image: url(./Hero\ BG\ Image.png);
+    margin: 0%;
+}
+nav li {
+    display: inline-block
+}
+#poli{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    color: white;
+    font-size: 20px;
+}
+ul {
+    margin: 0;
+}
+#pole{
+color: white;
+font-size: 30px;
+margin-top: 15px;
+margin-left: 100px;
+font-weight: bold;
+
+}
+#pol{
+    color: white;
+    font-size: 21px;
+
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 51px;
+}
+.example{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+
+}
+.mor{
+    display: flex;
+    justify-content: center;
+}
+
+.more{
+    background-color: transparent;
+    border: white solid 1px;
+    color: white;
+    margin: 15px;
+    border-radius: 20px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.rome{
+    border: solid 1px yellow;
+    background-color: yellow;
+    color: black;
+    margin: 14px;
+    border-radius: 18px;
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.best{
+    margin-top: 90px;
+}
+.vector{
+ border: solid 4px rgb(33, 52, 178, 1) ;
+ border-radius: 5px;
+ padding-bottom: 9px;  
+ font-weight: bold;
+ }
+header{
+    display: flex;
+    justify-content: center;
+}
+.most{
+    margin: 50px;
+}
+.pont{
+    font-weight: bold;
+}
+.photo{
+    margin: 50px;
+}
+.woman{
+   display: flex;
+   justify-content: center; 
+}
+.nemo{
+    display: flex;
+    justify-content: center;
+}
+.sharon{
+    display: flex;
+    justify-content: center;
+}
+.access{
+    border: solid 1px yellow;
+    background-color: yellow;
+    color: black;
+    border-radius: 19px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 18px;  
+    margin-top: 40px;
+    font-weight: bold;
+}
+footer{
+    background-color: rgb(47, 48, 53, 1);
+}
+.footer{
+    display: flex;
+    justify-content: center;
+
+}
+.footer-1{
+    display: flex;
+    justify-content: center;
+}
+.medal{
+    color: white;
+    margin: 50px;
+}
+.morning{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+}
+div li{
+    display: inline-block;
+}
+.a{
+    color: rgb(47, 48, 53, 1);
+}
+.open{
+    font-size: 15px;
+}
+.fire{
+    font-weight: bold;
+}
+.font{
+    font-weight: bold;
+    font-size: 25px;
+}
+.stand-1{
+    font-weight: bold;
+}
+.stand-2{
+    font-weight: bold;
+}
+.stand-3{
+    font-weight: bold;
+}
+.stand-4{
+    font-weight: bold;
+}
+@media screen and (max-width: 1200px){
+    header{
+    max-width: 970px;
+}
+}
+@media screen and (max-width: 992px){
+    header{
+    max-width: 750px;
+}
+@media screen and (max-width: 767){
+    header{
+    max-width: none;
+}
+
+
+
+@media screen and (max-width: 1200px){
+    li{
+    max-width: 970px;
+}
+}
+@media screen and (max-width: 992px){
+    li{
+    max-width: 750px;
+}
+@media screen and (max-width: 767){
+    li{
+    max-width: none;
+}
+}
+}
+/*.body{
+    border-radius: 40px;
+    box-shadow: 0 0 5px;
+    padding: 10px;
+
+}
+.wef{
+    position: absolute;
+    border: solid 1px white;
+    border-radius: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: white;
+    box-shadow: 0 0 5px;
+}
+
+.few{
+    position: absolute;
+    border: solid 1px white;
+    border-radius: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: white;
+    box-shadow: 0 0 5px;  
+    margin-top: 102px;
+}
+.new{
+    position: absolute;
+    border: solid 1px white;
+    border-radius: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: white;
+    box-shadow: 0 0 5px;  
+    margin-top: 204px;
+}
+.fox{
+    position: absolute;
+    border: solid 1px white;
+    border-radius: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: white;
+    box-shadow: 0 0 5px;  
+    margin-top: 306px;
+}
+.massege{
+    position: absolute;
+    border: solid 1px white;
+    border-radius: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: white;
+    box-shadow: 0 0 5px;  
+    margin-top: 408px;
+}
+*/
